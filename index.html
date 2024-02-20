@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+   * {
+      margin: 0px;
+      padding: 0px;
+      text-decoration: none;
+      list-style: none;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      background-color: #212121;
+      color: white;
+      height: 80px;
+    }
+    nav label {
+      font-size: 32px;
+      margin-left: 20px;
+    }
+    nav ul {
+      display: flex;
+      margin-right: 20px;
+    }
+    nav li {
+      font-size: 17px;
+      padding: 6px 15px;
+    }
+    nav a {
+      border: 2px solid #f0f0f0;
+      border-radius: 6px;
+      color: white;
+      margin: 0px 10px;
+    }
+ 
+</style>
+<body>
+    <nav>
+      <label>MIC tech</label>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Feedback</li>
+      <li>Contact Us</li>
+      <a href="/login"><li>login</li></a>
+      <a href="/register"><li>register</li></a>
+    </ul>
+    </nav>
+</body>
+</html>
